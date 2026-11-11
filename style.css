@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+}
+
+.desktop-table-view {
+  display: none;
+}
+
+.mobile-card-view {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .desktop-table-view {
+    display: block;
+  }
+
+  .mobile-card-view {
+    display: none;
+  }
+}
